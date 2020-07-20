@@ -7,6 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Web Scrapping Laravel
+<p align="center">
+Its a web scrapping project from news, this code will get first 30 news and then save them to the DB. when we press refresh, it will delete the old news and then replace the new news from the server using scrapping. 
+</p>
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
