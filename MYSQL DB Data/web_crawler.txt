@@ -1,0 +1,12 @@
+CREATE TABLE `web_crawler` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `title` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `url` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `points` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `username` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `total_comments` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `time_stamp` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
